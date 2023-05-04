@@ -1,0 +1,39 @@
+.dashboard-content {
+    min-height: 600px;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    border: 0.2px solid;
+    font-size: 17px;
+    border: none;
+    border-bottom: .2px solid rgb(182, 180, 180);
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    margin: 0 0 0 2rem;
+    height: 44px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(34, 124, 34);
+    color: white;
+}
+button:disabled {
+    cursor: not-allowed;
+    background-color: rgb(31, 100, 31);
+}
